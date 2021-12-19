@@ -20,4 +20,6 @@ main {
     align-items: center;
 }
 
-
+div.title-home {
+    text-align: center;
+}
