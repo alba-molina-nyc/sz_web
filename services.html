@@ -20,11 +20,24 @@
 <!-- header -->
 <nav>
   <div class="light-blue accent-3 nav-wrapper">
-    <a href="home.html" class="brand-logo">Logo</a>
+    <a href="home.html" class="brand-logo">Szuster Psychiatry</a>
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="about.html">About Us</a></li>
-      <li><a href="services.html">Services</a></li>
+      <!-- DROPDOWN MENU -->
+        <!-- Dropdown Trigger -->
+  <li class='dropdown-trigger' href='services.html' data-target='dropdown1'>Services</li>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href='services.html'>Children & Adolescent</a></li>
+    <li><a href='services.html'>DBT</a></li>
+    <li><a href='services.html'>CBT</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href='services.html'>Family Systems</a></li>
+    <li><a href='services.html'>Psychiatry</a></li>
+    <li><a href='services.html'>Psychoanalysis</a></li>
+  </ul>
       <li><a href="providers.html">Providers</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
