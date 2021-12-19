@@ -10,16 +10,12 @@ body {
     margin: 0;
 }
 main {
-    flex: 1 0 auto;
     flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
     padding-left: 3rem;
     padding-right: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
-
 div.title-home {
     text-align: center;
 }
@@ -37,3 +33,16 @@ h8 { color: rgb(29,87,155); font-family: 'Helvetica Neue', sans-serif; font-size
 
 h3, h5 {
     font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: center; text-justify: inter-word letter-spacing: 5px; }
+
+
+#person {
+    border-radius: 7px;
+    border: 1px solid #423f3f;
+    min-height: 40;
+    max-height: 40;
+}
+
+.row {
+    height: 200px;
+}
+
