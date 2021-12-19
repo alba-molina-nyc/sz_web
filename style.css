@@ -51,3 +51,18 @@ ul#dropdown1 {
     width: fit-content;
 }
 
+.mapouter{
+    position: right;
+    text-align:center;
+    height:500px;
+    width:600px;
+}
+
+.gmap_canvas {
+    position: center;
+    align-items: center;
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}

@@ -32,3 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Or with jQuery
 
   $('.dropdown-trigger').dropdown();
+
+
+ 
