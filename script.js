@@ -33,5 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   $('.dropdown-trigger').dropdown();
 
+// text area contact form
+$('#textarea').val('New Text');
+M.textareaAutoResize($('#textarea1'));
 
- 
