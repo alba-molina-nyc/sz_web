@@ -36,4 +36,4 @@ h4 { color: grey; font-family: 'Open Sans', sans-serif; font-size: 30px; font-we
 h8 { color: rgb(29,87,155); font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: center; text-justify: inter-word; }
 
 h3, h5 {
-    font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: center; text-justify: inter-word; }
+    font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: center; text-justify: inter-word letter-spacing: 5px; }
