@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    max-width: 500px;
 }
 main {
     flex-grow: 1;
@@ -15,6 +16,7 @@ main {
     flex-wrap: nowrap;
     padding-left: 3rem;
     padding-right: 3rem;
+    max-width: 500px;
 }
 div.title-home {
     text-align: center;
