@@ -60,31 +60,34 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <main>
-<h1>Get In Contact</h1>
+
 <hr/>
 <br/>
-<div class="row">
-<form action="https//formsubmit.co/albavmolinanyc@gmail.com" method="POST" class="col s12">
-  <input type="hidden" name="_subject" value="new email woo">
- 
-  <input type="text" name="" id="">
-  <label for="textarea">First Name</label>
+<div class="container">
+  <h1>Get In Contact Form</h1>
+  <form target="_blank" action="https://formsubmit.co/albavmolinanyc@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <div class="form-group">
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+      <input type="hidden" name="_subject" value="new email woo">
 
-  <input type="text" name="" id="">
-  <label for="textarea">Last Name</label>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
 
-  <input type="email" name="" id="" required>
-  <label for="textarea">Email</label>
-  <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
-
-  <input type="text" name="" id="">
-  <label for="textarea" required>Phone Number</label>
-
-  <input type="text" name="message" placeholder="write your message here">
-  <label for="textarea" required>Message</label>
-  <br/><br/>
-  <input type="submit" value="Submit" class="light-blue accent-3  btn-small">
-</form>
 </div>
 </main>
 <br/>
