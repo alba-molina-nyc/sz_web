@@ -31,7 +31,7 @@ h1 { color: black; font-family: 'Helvetica Neue', sans-serif; font-size: 10vw; f
 
 h4 { color: grey; font-family: 'Open Sans', sans-serif; font-size: 7vw; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center; }
 
-h8 { color: rgb(29,87,155); font-family: 'Helvetica Neue', sans-serif; font-size: 6vw; line-height: 24px; margin: 0 0 24px; text-align: center; text-justify: inter-word; }
+/* h8 { color: rgb(29,87,155); font-family: 'Helvetica Neue', sans-serif; font-size: 6vw; line-height: 24px; margin: 0 0 24px; text-align: center; text-justify: inter-word; } */
 
 h3, h5 {
     font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 7vw; margin: 0 0 24px; text-align: center; text-justify: inter-word letter-spacing: 5px; }
